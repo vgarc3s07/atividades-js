@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio 16</h1>
+    <p>Determine se o número digitado é divisível por 3 e 5 simultanemente.</p>
+
+    <script>
+        var num4 = Number(window.prompt('Digite um número qualquer: '))
+        var resultado = (num4 % 3 ==0) && (num4 % 5 ==0) ? 'é divisível' : 'não é divisível'
+
+        document.write(`O número ${num4} ${resultado} por 3 e 5 simultaneamente.`)
+                
+    </script>
+    
+</body>
+</html>
