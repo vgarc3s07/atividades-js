@@ -6,9 +6,43 @@
 }
 
 body {
-    background-color: red;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png);
+    background-position: 300px;
     color: white;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+.img_exercicies {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exercicies {
+    margin: 20px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(8px) ;
+    text-align: center;
+    border-radius: 10px;
+}
+.title_large {
+    color: black;
+    text-align: center;
+}
+.title {
+    color: black;
+    text-decoration-style: none;
+}
+
+.title:hover {
+    color: white;
+    
+}
+
